@@ -74,7 +74,8 @@ function newCard(){
 }
 
 function resetCard(){
-    
+    let hasBlackJack = false
+    let isAlive = false
     messageEl.textContent = "Want to play a round?"
     sumEl.textContent = "Sum: "
     cardsEl.textContent = "Cards: "
